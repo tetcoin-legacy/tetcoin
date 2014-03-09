@@ -1,0 +1,9 @@
+Building Tetcoin
+
+See doc/readme-qt.rst for instructions on building Tetcoin-QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Tetcoin.
+
+See doc/build-*.txt for instructions on building tetcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Tetcoin.
