@@ -8,6 +8,15 @@ Open source peer to peer currency.
 * 128 coins per block
 * 2016 blocks to retarget difficulty
 
+##### **Status**
+
+03.10.14
+Successful build of codebase
+Genesis Block creation successful
+Live Tetcoin Server at tetcoin.com
+DNS seed server in development
+Mining Pools in development
+
 ##### **License**
 
 Tetcoin Software is released under terms of the MIT License.  Refer to COPYING for further details.
