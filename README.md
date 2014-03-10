@@ -11,5 +11,3 @@ Open source peer to peer currency.
 ##### **License**
 
 Tetcoin Software is released under terms of the MIT License.  Refer to COPYING for further details.
-
-###### **Copyright (C) Kedia Corporation**
