@@ -2,7 +2,11 @@
 
 Open source peer to peer currency.
 * Scrypt Algorithm
-* 128,000,000 Units to first issue
+* 4 minute block targets
+* subsidy halves in 544k blocks (~4 years)
+* ~128 million total coins
+* 128 coins per block
+* 2016 blocks to retarget difficulty
 
 ##### **License**
 
