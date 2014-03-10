@@ -16,6 +16,8 @@ Open source peer to peer currency.
 * Live Tetcoin Server at tetcoin.com
 * DNS seed server in development
 * Mining Pools in development
+* CPU + GPU Mining tests successful
+* Blockchain replication successful
 
 ##### **License**
 
