@@ -11,11 +11,11 @@ Open source peer to peer currency.
 ##### **Status**
 
 03.10.14
-Successful build of codebase
-Genesis Block creation successful
-Live Tetcoin Server at tetcoin.com
-DNS seed server in development
-Mining Pools in development
+* Successful build of codebase
+* Genesis Block creation successful
+* Live Tetcoin Server at tetcoin.com
+* DNS seed server in development
+* Mining Pools in development
 
 ##### **License**
 
