@@ -19,6 +19,27 @@ Open source peer to peer currency.
 * CPU + GPU Mining tests successful
 * Blockchain replication successful
 
+##### **Install**
+
+Ubuntu 12.04 and 13.10
+
+sudo apt-get update
+
+Without Qt:
+
+sudo apt-get install autoconf autogen automake build-essential git libdb++-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils
+
+With Qt:
+
+sudo apt-get install autoconf autogen automake build-essential git libdb++-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils libqt4-dev qt4-qmake
+
+cd ~/
+git clone https://github.com/kediacorp/Tetcoin.git
+cd Tetcoin/tetcoind/src
+
+make -f makefile.unix
+sudo cp ./tetcoind /usr/bin
+
 ##### **License**
 
 Tetcoin Software is released under terms of the MIT License.  Refer to COPYING for further details.
