@@ -31,7 +31,7 @@ sudo apt-get install autoconf autogen automake build-essential git libdb++-dev l
 
 With Qt:
 
-sudo apt-get install autoconf autogen automake build-essential git libdb++-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils libqt4-dev qt4-qmake
+sudo apt-get install libqt4-dev qt4-qmake
 
 cd ~/
 
@@ -42,6 +42,8 @@ cd Tetcoin/tetcoind/src
 make -f makefile.unix
 
 sudo cp ./tetcoind /usr/bin
+
+DNS seed servers are not yet live, add '-connect 76.74.178.193' when executing to gain the blockchain.
 
 ##### **License**
 
