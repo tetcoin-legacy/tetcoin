@@ -34,10 +34,13 @@ With Qt:
 sudo apt-get install autoconf autogen automake build-essential git libdb++-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils libqt4-dev qt4-qmake
 
 cd ~/
+
 git clone https://github.com/kediacorp/Tetcoin.git
+
 cd Tetcoin/tetcoind/src
 
 make -f makefile.unix
+
 sudo cp ./tetcoind /usr/bin
 
 ##### **License**
