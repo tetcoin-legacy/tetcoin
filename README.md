@@ -45,6 +45,20 @@ sudo cp ./tetcoind /usr/bin
 
 DNS seed servers are not yet live, add '-connect 76.74.178.193' when executing to gain the blockchain.
 
+Mac OSX
+
+Without Qt:
+
+brew install boost miniupnpc openssl berkeley-db4
+
+With Qt:
+
+brew install qt protobuf
+
+cd Tetcoin/tetcoind/src
+
+make -f makefile.osx
+
 ##### **License**
 
 Tetcoin Software is released under terms of the MIT License.  Refer to COPYING for further details.
