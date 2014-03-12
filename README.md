@@ -59,6 +59,18 @@ cd Tetcoin/tetcoind/src
 
 make -f makefile.osx
 
+Build Qt:
+
+cd Tetcoin
+
+qmake tetcoin-qt.pro
+
+nano Makefile
+
+in LIBS change -L/opt/X11/bin to -L/usr/X11/bin, add -L/usr/local/opt/openssl/lib, or make other other changes
+
+make -f Makefile RELEASE=1
+
 ##### **License**
 
 Tetcoin Software is released under terms of the MIT License.  Refer to COPYING for further details.
