@@ -21,7 +21,7 @@ Open source peer to peer currency.
 
 ##### **Install**
 
-Ubuntu 12.04 and 13.10
+###### Ubuntu 12.04 and 13.10
 
 sudo apt-get update
 
@@ -45,7 +45,7 @@ sudo cp ./tetcoind /usr/bin
 
 DNS seed servers are not yet live, add '-connect 76.74.178.193' when executing to gain the blockchain.
 
-Mac OSX
+###### Mac OSX
 
 Without Qt:
 
