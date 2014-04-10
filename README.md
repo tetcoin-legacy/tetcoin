@@ -10,6 +10,10 @@ Open source peer to peer currency.
 
 ##### **Status**
 
+04.09.14
+* Master set to version 0.8.7.1
+* Added security fixes
+
 03.10.14
 * Successful build of codebase
 * Genesis Block creation successful
