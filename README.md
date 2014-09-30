@@ -1,6 +1,7 @@
 #### **Tetcoin (TET)**
 
-Open source peer to peer currency.
+The Currency for Change.
+
 * Scrypt Algorithm
 * 4 minute block targets
 * subsidy halves in 544k blocks (~4 years)
@@ -33,8 +34,6 @@ cd Tetcoin/tetcoind/src
 make -f makefile.unix
 
 sudo cp ./tetcoind /usr/bin
-
-DNS seed servers are not yet live, add '-connect 76.74.178.193' when executing to gain the blockchain.
 
 ###### Mac OSX
 
