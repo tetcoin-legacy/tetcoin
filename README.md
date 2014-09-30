@@ -8,30 +8,17 @@ Open source peer to peer currency.
 * 128 coins per block
 * 2016 blocks to retarget difficulty
 
-##### **Status**
-
-04.09.14
-* Master set to version 0.8.7.1
-* Added security fixes
-
-03.10.14
-* Successful build of codebase
-* Genesis Block creation successful
-* Live Tetcoin Server at tetcoin.com
-* DNS seed server in development
-* Mining Pools in development
-* CPU + GPU Mining tests successful
-* Blockchain replication successful
-
 ##### **Install**
 
-###### Ubuntu 12.04 and 13.10
+###### Ubuntu 14.04
+
+Install Dependencies:
 
 sudo apt-get update
 
 Without Qt:
 
-sudo apt-get install autoconf autogen automake build-essential git libdb++-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils
+sudo apt-get install git autoconf autogen automake build-essential libboost-all-dev libcurl4-openssl-dev libdb-dev libdb++-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils
 
 With Qt:
 
