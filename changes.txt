@@ -1,0 +1,19 @@
+##### **Status**
+
+09.29.14
+* Master set to version 0.8.7.2
+* Updated install instructions for Ubuntu 14.04
+* Enhanced Display
+
+04.09.14
+* Master set to version 0.8.7.1
+* Added security fixes
+
+03.10.14
+* Successful build of codebase
+* Genesis Block creation successful
+* Live Tetcoin Server at tetcoin.com
+* DNS seed server in development
+* Mining Pools in development
+* CPU + GPU Mining tests successful
+* Blockchain replication successful
