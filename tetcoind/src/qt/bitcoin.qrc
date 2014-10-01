@@ -1,4 +1,4 @@
-<!DOCTYPE RCC><RCC version="1.0">
+<RCC>
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/bitcoin.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
@@ -42,9 +42,9 @@
         <file alias="debugwindow">res/icons/debugwindow.png</file>
     </qresource>
     <qresource prefix="/images">
-        <file alias="about">res/images/about.png</file>
         <file alias="splash">res/images/TETsplash.png</file>
         <file alias="splash_testnet">res/images/TETsplash.png</file>
+        <file alias="logo_small">res/images/TETlogosmall.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="update_spinner">res/movies/update_spinner.mng</file>
