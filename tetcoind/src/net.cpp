@@ -1194,9 +1194,6 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"tetcoin.com", "dnsseed.tetcoin.com"},
     {"tetcoin.org", "dnsseed.tetcoin.org"},
-    /**{"xurious.com", "dnsseed.TET.xurious.com"},
-    {"koin-project.com", "dnsseed.koin-project.com"},
-    {"weminemnc.com", "dnsseed.weminemnc.com"},*/
     {NULL, NULL}
 };
 
