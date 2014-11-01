@@ -1,6 +1,7 @@
 #### **Tetcoin (TET)**
 
 The Currency for Change.
+http://tetcoin.com
 
 * Scrypt Algorithm
 * 4 minute block targets
