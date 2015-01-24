@@ -7,7 +7,7 @@
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
-DEPSDIR=/usr/local
+DEPSDIR=/usr/local/Cellar
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
