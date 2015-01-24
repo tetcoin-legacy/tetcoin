@@ -7,17 +7,23 @@
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
-DEPSDIR=/usr/local
+DEPSDIR=/usr/local/opt
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
  -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)/Cellar/berkeley-db4/4.8.30/include"
+ -I"$(DEPSDIR)/berkeley-db4/include" \
+ -I"$(DEPSDIR)/miniupnpc/include" \
+ -I"$(DEPSDIR)/boost/include" \
+ -I"$(DEPSDIR)/openssl/include"
 
 LIBPATHS= \
  -L"$(DEPSDIR)/lib" \
- -L"$(DEPSDIR)/Cellar/berkeley-db4/4.8.30/lib"
+ -L"$(DEPSDIR)/berkeley-db4/lib" \
+ -L"$(DEPSDIR)/miniupnpc/lib" \
+ -L"$(DEPSDIR)/boost/lib" \
+ -L"$(DEPSDIR)/openssl/lib"
 
 USE_UPNP:=1
 USE_IPV6:=1
