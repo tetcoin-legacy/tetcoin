@@ -33,32 +33,36 @@ namespace Checkpoints
     //   (no blocks before with a timestamp after, none after with
     //    timestamp before)
     // + Contains no strange transactions
+    // Genesis Livenet: (  0, uint256("0x26386e3d1dfe042576122eef381d662551f33d68eb29e3a3fb5fd0cd5f25788e"))
+    /*static MapCheckpoints mapCheckpoints =
+        boost::assign::map_list_of
+	(     1, uint256("0x000003db92cab08116363d954d4bc16c1771824e0a4f381da4e4b81dca79e58c"))
+	(    10, uint256("0x00000a0c52dfb43237e495a24193a57e00cbcf48e16258f0bcfaba1de9e9725b"))
+	(   100, uint256("0x00000b3c485e86341405ddec93d01f00979c23d7ee1b8c559f0b7a593108c697"))
+        ;*/
+    // Treefunder: Why these were set to the above we will never know
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  1500, uint256("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967"))
-        (  4032, uint256("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846"))
-        (  8064, uint256("0xeb984353fc5190f210651f150c40b8a4bab9eeeff0b729fcb3987da694430d70"))
-        ( 16128, uint256("0x602edf1859b7f9a6af809f1d9b0e6cb66fdc1d4d9dcd7a4bec03e12a1ccd153d"))
-        ( 23420, uint256("0xd80fdf9ca81afd0bd2b2a90ac3a9fe547da58f2530ec874e978fce0b5101b507"))
-        ( 50000, uint256("0x69dc37eb029b68f075a5012dcc0419c127672adb4f3a32882b2b3e71d07a20a6"))
-        ( 80000, uint256("0x4fcb7c02f676a300503f49c764a89955a8f920b46a8cbecb4867182ecdb2e90a"))
-        (120000, uint256("0xbd9d26924f05f6daa7f0155f32828ec89e8e29cee9e7121b026a7a3552ac6131"))
-        (161500, uint256("0xdbe89880474f4bb4f75c227c77ba1cdc024991123b28b8418dbbf7798471ff43"))
-        (179620, uint256("0x2ad9c65c990ac00426d18e446e0fd7be2ffa69e9a7dcb28358a50b2b78b9f709"))
-        (240000, uint256("0x7140d1c4b4c2157ca217ee7636f24c9c73db39c4590c4e6eab2e3ea1555088aa"))
-        (383640, uint256("0x2b6809f094a9215bafc65eb3f110a35127a34be94b7d0590a096c3f126c6f364"))
-        (409004, uint256("0x487518d663d9f1fa08611d9395ad74d982b667fbdc0e77e9cf39b4f1355908a3"))
-        (456000, uint256("0xbf34f71cc6366cd487930d06be22f897e34ca6a40501ac7d401be32456372004"))
-        (541794, uint256("0x1cbccbe6920e7c258bbce1f26211084efb19764aa3224bec3f4320d77d6a2fd2"))
-        (585010, uint256("0xea9ea06840de20a18a66acb07c9102ee6374ad2cbafc71794e576354fea5df2d"))
-        (638902, uint256("0x15238656e8ec63d28de29a8c75fcf3a5819afc953dcd9cc45cecc53baec74f38"))
+        (     1, uint256("0x97ffe971bfa0d155402ab1814d825c30a5917c16b4b866db989528aa7bee5e71"))
+        (    10, uint256("0xa3ef19e9aa5cb1bf3265357b2e4b1ca4bfe1cdbb13ca726e238bb68aa014edac"))
+        (   100, uint256("0x267409b6d7feff42eae9f5a58e37fe2620bfffda03809713556bd7d3cc3b8eba"))
+        (  1000, uint256("0xf2892fbbe6a074fd74e5c88640e56affa98114cc297ebbe24f147dedc18ebd38"))
+        (  5000, uint256("0x64185f31b019eb68658249095ae927973cc3fe1194941b34f7f4434dbca8c957"))
+        ( 10000, uint256("0x378c5d48f9528992f645951e37fe4c0929cd559921b5b23dfc0f844d7437cc10"))
+        ( 16833, uint256("0xd58d9da7b5382348f2645834f4fa4b195e9fec56d617a992c44fb222544e4d5b"))
+        ( 22275, uint256("0x8a035df1542f1efa82c1b1a47920f63d8d7765257b3bf68bc7c300409c6d333b"))
+        ( 22321, uint256("0x614405c05a7821f02d01405ad3be57d2c821601ee7450d18c00660b92036375c"))
+        ( 25175, uint256("0x09be4b4ec0ee9fc3e880749e67fd505f64852b61c3b1158e3fa5e7357e9da0ef"))
+        ( 27525, uint256("0x96943d8575da8c6ac7a43ef4a2bd04ac45b4fe3c133d29cace3a20037e63be30"))
+        ( 30010, uint256("0x789164c35468e6fc1c4e2ea488da769d4f5469160be929930f3da4c56c01d7ef"))
+        ( 31456, uint256("0x1d8a914e5defafa1bcbf8a85f9bc77d29e34d3e93fd10f16cc48d00d9831a6e2"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1410516073, // * UNIX timestamp of last checkpoint block
-        4896865,    // * total number of transactions between genesis and last checkpoint
+        1422122385, // * UNIX timestamp of last checkpoint block
+        149797,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        7000.0     // * estimated number of transactions per day after checkpoint
+        10000.0     // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
