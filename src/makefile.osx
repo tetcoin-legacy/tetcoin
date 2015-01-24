@@ -35,16 +35,16 @@ TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
 ifdef STATIC
 # Build STATIC if you are redistributing the bitcoind binary
 TESTLIBS += \
- $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
+ $(DEPSDIR)/boost/lib/libboost_unit_test_framework-mt.a
 LIBS += \
- $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
- $(DEPSDIR)/lib/libboost_system-mt.a \
- $(DEPSDIR)/lib/libboost_filesystem-mt.a \
- $(DEPSDIR)/lib/libboost_program_options-mt.a \
- $(DEPSDIR)/lib/libboost_thread-mt.a \
- $(DEPSDIR)/lib/libboost_chrono-mt.a \
- $(DEPSDIR)/lib/libssl.a \
- $(DEPSDIR)/lib/libcrypto.a \
+ $(DEPSDIR)/berkeley-db4/lib/libdb_cxx-4.8.a \
+ $(DEPSDIR)/boost/lib/libboost_system-mt.a \
+ $(DEPSDIR)/boost/lib/libboost_filesystem-mt.a \
+ $(DEPSDIR)/boost/lib/libboost_program_options-mt.a \
+ $(DEPSDIR)/boost/lib/libboost_thread-mt.a \
+ $(DEPSDIR)/boost/lib/libboost_chrono-mt.a \
+ $(DEPSDIR)/openssl/lib/libssl.a \
+ $(DEPSDIR)/openssl/lib/libcrypto.a \
  -lz
 else
 TESTLIBS += \
@@ -74,7 +74,7 @@ DEBUGFLAGS = -g
 endif
 
 # osx 10.9 has changed the stdlib default to libc++. To prevent some link error, you may need to use libstdc++
-CFLAGS += -stdlib=libstdc++
+#CFLAGS += -stdlib=libstdc++
 
 # ppc doesn't work because we don't support big-endian
 CFLAGS += -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter \
