@@ -1,25 +1,26 @@
 Czarcoin integration/staging tree
 ================================
 
-http://www.czarcoin.org
+https://czarcoin.co
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Czarcoin Developers
+Copyright (c) 2014-2015 Treefunder Incorporated
 
 What is Czarcoin?
 ----------------
 
 Czarcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 128 Second block targets
+ - Subsidy is Governed by Production Targets
+ - Transaction Focused Network
+ - Minimal Creation of New Coins
+ - 1% Inflation Target
+ - Supply Information posted to https://czarcoin.co/supply.json
+ - 100 Blocks to Retarget Difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Czarcoin client sofware, see http://www.czarcoin.org.
+the Czarcoin client sofware, see https://czarcoin.co.
 
 License
 -------
