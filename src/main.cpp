@@ -1092,7 +1092,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         nSubsidy = 99 * COIN;
     } else if (nHeight == 1) {
         nSubsidy = 224999901 * COIN; // 111000111 CZR were burned to bootstrap Czarparty
-    } else if (nHeight <= 35000 ){
+    } else if (nHeight > 1 && nHeight <= 35000 ){
         nSubsidy = 10 * COIN;
     } else { // Block 35001 Begins Distribution Phase
 		nSubsidy = 0.001 * COIN;
