@@ -218,6 +218,7 @@ int main(int argc, char *argv[])
     if (GetBoolArg("-splash", true) && !GetBoolArg("-min"))
     {
         splash.show();
+        // Autofill + Transparency Does not mix well: splash.setAutoFillBackground(true);
         splash.setAutoFillBackground(false);
         splashref = &splash;
     }
