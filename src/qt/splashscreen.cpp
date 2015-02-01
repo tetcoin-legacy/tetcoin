@@ -56,9 +56,13 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     pixPaint.end();
 
     this->setPixmap(newPixmap);*/
-    QPixmap aPixmap(":/images/splash");
-	QLabel* aWidget = new QLabel(0, Qt::FramelessWindowHint|Qt::WindowStaysOnTopHint);
-	aWidget->setAttribute(Qt::WA_TranslucentBackground);
-	aWidget->setPixmap(aPixmap);
-	aWidget->show();
+    // load the bitmap for writing some text over it
+    QPixmap newPixmap;
+    if(GetBoolArg("-testnet")) {
+        newPixmap     = QPixmap(":/images/splash_testnet");
+    }
+    else {
+        newPixmap     = QPixmap(":/images/splash");
+    }
+    this->setPixmap(newPixmap);
 }
