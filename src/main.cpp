@@ -2009,7 +2009,7 @@ int GetAuxPowStartBlock()
     if (fTestNet)
         return 0; // Test network is only running merged capable clients
     else
-        return 103457; // Started here as miners pushed to 1 GH/s then disappeared
+        return 103458; // Started here as miners pushed to 1 GH/s then disappeared
 }
 
 int GetOurChainID()
