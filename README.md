@@ -13,11 +13,13 @@ What is Tetcoin?
 ----------------
 
 Tetcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 4 minute block targets
- - subsidy halves in 544k blocks (~4 years)
  - ~128 million total coins
- - 128 coins per block
- - 2016 blocks to retarget difficulty
+ - Pure mining distribution with no premine or ICO
+ - 4 minute block targets
+ - Starting reward of 128 coins per block
+ - subsidy halves in 544k blocks (~4 years)
+ - Hourly Difficulty Retargeting
+ - Merged Mining Support Enabled
 
 For more information, as well as an immediately useable, binary version of
 the Tetcoin client sofware, see http://www.tetcoin.org.
