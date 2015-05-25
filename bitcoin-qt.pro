@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = tetcoin-qt
 macx:TARGET = "Tetcoin-Qt"
-VERSION = 0.8.7.5
+VERSION = 0.8.7.6
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -148,6 +148,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/editaddressdialog.h \
     src/qt/bitcoinaddressvalidator.h \
     src/alert.h \
+    src/auxpow.h \
     src/addrman.h \
     src/base58.h \
     src/bignum.h \
@@ -235,6 +236,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/editaddressdialog.cpp \
     src/qt/bitcoinaddressvalidator.cpp \
     src/alert.cpp \
+    src/auxpow.cpp \
     src/version.cpp \
     src/sync.cpp \
     src/util.cpp \
