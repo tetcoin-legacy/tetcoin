@@ -22,7 +22,7 @@ Tetcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - Merged Mining Support Enabled
 
 For more information, as well as an immediately useable, binary version of
-the Tetcoin client sofware, see http://www.tetcoin.org.
+the Tetcoin client sofware, see http://www.tetcoin.co.
 
 License
 -------
