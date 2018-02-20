@@ -1,13 +1,9 @@
 Czarcoin integration/staging tree
 ================================
 
-https://czarcoin.co
+https://czarcoin.com
 
-```
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014-2015 Treefunder Incorporated
-```
+[![Build Status](https://travis-ci.org/czarcoin/czarcoin.svg?branch=master)](https://travis-ci.org/czarcoin/czarcoin)
 
 What is Czarcoin?
 ----------------
@@ -22,7 +18,7 @@ Czarcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 100 Blocks to Retarget Difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Czarcoin client sofware, see https://czarcoin.co.
+the Czarcoin client sofware, see https://czarcoin.com.
 
 License
 -------
@@ -48,7 +44,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/czarcoin-project/czarcoin/tags) are created
+completely stable. [Tags](https://github.com/czarcoin/czarcoin/tags) are created
 regularly to indicate new official, stable release versions of Czarcoin.
 
 Testing
@@ -70,7 +66,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake CZARCOIN_QT_TEST=1 -o Makefile.test czarcoin-qt.pro
     make -f Makefile.test
     ./czarcoin-qt_test
 
