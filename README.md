@@ -8,7 +8,7 @@ https://czarcoin.com
 What is Czarcoin?
 ----------------
 
-Czarcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Czarcoin is an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
  - 128 Second block targets
  - Subsidy is Governed by Production Targets
  - Transaction Focused Network
