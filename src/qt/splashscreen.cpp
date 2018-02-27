@@ -28,7 +28,7 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     QString versionText     = QString("Version %1 ").arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightText1   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin developers"));
     QString copyrightText2   = QChar(0xA9)+QString(" 2011-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Litecoin Developers"));
-    QString copyrightText3   = QChar(0xA9)+QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("Treefunder Incorporated"));
+    QString copyrightText3   = QChar(0xA9)+QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("Kedia Corporation"));
 
     QString font            = "Arial";
 
@@ -48,10 +48,10 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line4,versionText);
 
     // draw copyright stuff
-    pixPaint.setFont(QFont(font, 9*fontFactor));
+    /*pixPaint.setFont(QFont(font, 9*fontFactor));
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line1,copyrightText1);
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line2,copyrightText2);
-    pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line3,copyrightText3);
+    pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line3,copyrightText3);*/
 
     pixPaint.end();
 
