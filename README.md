@@ -3,18 +3,15 @@ Czarcoin integration/staging tree
 
 https://czarcoin.com
 
-[![Build Status](https://travis-ci.org/czarcoin/czarcoin.svg?branch=master)](https://travis-ci.org/czarcoin/czarcoin)
-
 What is Czarcoin?
 -----------------
 
 Czarcoin is an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
- - 15,000,000 CZR Issuance
- - Transactions confirm within three minutes
- - Miners receive 48 CZR Subsidy per block
- - 1% Inflation Target with Subsidy halving yearly
- - Supply Information posted to https://czarcoin.com/supply.json
- - 1 Hour to Retarget Difficulty
+ - 5 minute block targets
+ - subsidy halves in 105k blocks (~1 years)
+ - ~128 million total coins
+ - 512 coins per block
+ - 1 hour to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Czarcoin client sofware, see https://czarcoin.com.
