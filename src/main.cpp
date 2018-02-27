@@ -3092,7 +3092,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x63, 0x7a, 0x61, 0x72 }; // Czarcoin: czar
+unsigned char pchMessageStart[4] = { 0x43, 0x7a, 0x61, 0x72 }; // Czarcoin: czar
 
 
 void static ProcessGetData(CNode* pfrom)
