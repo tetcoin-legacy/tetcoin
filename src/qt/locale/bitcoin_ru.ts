@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Czarcoin</source>
-        <translation>&amp;О Czarcoin</translation>
+        <source>About Tetcoin</source>
+        <translation>&amp;О Tetcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Czarcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Czarcoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Tetcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Tetcoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>The Litecoin Developers</source>
-        <translation>Разработчики Czarcoin</translation>
+        <translation>Разработчики Tetcoin</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Czarcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Tetcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Czarcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Czarcoin</translation>
+        <source>Sign a message to prove you own a Tetcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Tetcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Czarcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Czarcoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Tetcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Tetcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Czarcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Tetcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Czarcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your czarcoins from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши Czarcoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>Tetcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tetcoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши Tetcoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Czarcoin</source>
-        <translation>Показать информацию о Czarcoin&apos;е</translation>
+        <source>Show information about Tetcoin</source>
+        <translation>Показать информацию о Tetcoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Czarcoin address</source>
-        <translation>Отправить монеты на указанный адрес Czarcoin</translation>
+        <source>Send coins to a Tetcoin address</source>
+        <translation>Отправить монеты на указанный адрес Tetcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Czarcoin</source>
-        <translation>Изменить параметры конфигурации Czarcoin</translation>
+        <source>Modify configuration options for Tetcoin</source>
+        <translation>Изменить параметры конфигурации Tetcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Czarcoin</source>
-        <translation>Czarcoin</translation>
+        <source>Tetcoin</source>
+        <translation>Tetcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Czarcoin</source>
-        <translation>&amp;О Czarcoin</translation>
+        <source>&amp;About Tetcoin</source>
+        <translation>&amp;О Tetcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Czarcoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Czarcoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your Tetcoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Tetcoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Czarcoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Czarcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Tetcoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Tetcoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Czarcoin client</source>
-        <translation>Czarcoin клиент</translation>
+        <source>Tetcoin client</source>
+        <translation>Tetcoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Czarcoin network</source>
+        <source>%n active connection(s) to Tetcoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Czarcoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Czarcoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Tetcoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Tetcoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Czarcoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Czarcoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Tetcoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Tetcoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Czarcoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Czarcoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Tetcoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Tetcoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Czarcoin-Qt</source>
-        <translation>Czarcoin-Qt</translation>
+        <source>Tetcoin-Qt</source>
+        <translation>Tetcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Czarcoin after logging in to the system.</source>
-        <translation>Автоматически запускать Czarcoin после входа в систему</translation>
+        <source>Automatically start Tetcoin after logging in to the system.</source>
+        <translation>Автоматически запускать Tetcoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Czarcoin on system login</source>
-        <translation>&amp;Запускать Czarcoin при входе в систему</translation>
+        <source>&amp;Start Tetcoin on system login</source>
+        <translation>&amp;Запускать Tetcoin при входе в систему</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Czarcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Czarcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Tetcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Tetcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Czarcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Czarcoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Tetcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Tetcoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Czarcoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Czarcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Tetcoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Tetcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Czarcoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Czarcoin в списке транзакций.</translation>
+        <source>Whether to show Tetcoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Tetcoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Czarcoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Czarcoin</translation>
+        <source>This setting will take effect after restarting Tetcoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Tetcoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Czarcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Czarcoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tetcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Tetcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start czarcoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить czarcoin: обработчик click-to-pay</translation>
+        <source>Cannot start tetcoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить tetcoin: обработчик click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Czarcoin-Qt help message to get a list with possible Czarcoin command-line options.</source>
-        <translation>Показать помощь по Czarcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Tetcoin-Qt help message to get a list with possible Tetcoin command-line options.</source>
+        <translation>Показать помощь по Tetcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Czarcoin - Debug window</source>
-        <translation>Czarcoin - Окно отладки</translation>
+        <source>Tetcoin - Debug window</source>
+        <translation>Tetcoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Czarcoin Core</source>
-        <translation>Ядро Czarcoin</translation>
+        <source>Tetcoin Core</source>
+        <translation>Ядро Tetcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Czarcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Czarcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Tetcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Tetcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Czarcoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Czarcoin.</translation>
+        <source>Welcome to the Tetcoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Tetcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Czarcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите Czarcoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>Enter a Tetcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите Tetcoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Czarcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Czarcoin</translation>
+        <source>Sign the message to prove you own this Tetcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Tetcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Czarcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Czarcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Tetcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Tetcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Czarcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите адрес Czarcoin (напр. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Tetcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите адрес Tetcoin (напр. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Czarcoin signature</source>
-        <translation>Введите подпись Czarcoin</translation>
+        <source>Enter Tetcoin signature</source>
+        <translation>Введите подпись Tetcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Address: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin Developers</source>
-        <translation>Разработчики Czarcoin</translation>
+        <translation>Разработчики Tetcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Czarcoin version</source>
+        <source>Tetcoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or czarcoind</source>
-        <translation>Отправить команду на -server или czarcoind</translation>
+        <source>Send command to -server or tetcoind</source>
+        <translation>Отправить команду на -server или tetcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: czarcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: czarcoin.conf)</translation>
+        <source>Specify configuration file (default: tetcoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: tetcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: czarcoind.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: czarcoin.pid)</translation>
+        <source>Specify pid file (default: tetcoind.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: tetcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2238,8 +2238,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8814 or testnet: 18814)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8814 или 18814 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8877 or testnet: 18877)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8877 или 18877 в тестовой сети)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2273,8 +2273,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8816 or testnet: 18816)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8816 или для testnet: 18816)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8899 or testnet: 18899)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8899 или для testnet: 18899)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2301,24 +2301,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=czarcoinrpc
+rpcuser=tetcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tetcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=czarcoinrpc
+rpcuser=tetcoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
+Например: alertnotify=echo %%s | mail -s &quot;Tetcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Czarcoin is probably already running.</source>
-        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Czarcoin уже работает.</translation>
+        <source>Cannot obtain a lock on data directory %s. Tetcoin is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Tetcoin уже работает.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Czarcoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Czarcoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tetcoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Tetcoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,9 +2628,9 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Czarcoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Tetcoin Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. Czarcoin Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. Tetcoin Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2819,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Czarcoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Czarcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tetcoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Tetcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Czarcoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Czarcoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Tetcoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Tetcoin для завершения операции.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2884,8 +2884,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Czarcoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Czarcoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Tetcoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Tetcoin уже работает.</translation>
     </message>
     <message>
         <location line="+64"/>

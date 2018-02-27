@@ -20,14 +20,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Czarcoin"
-            VALUE "FileDescription",    "Czarcoin-Qt (OSS GUI client for Czarcoin)"
+            VALUE "CompanyName",        "Tetcoin"
+            VALUE "FileDescription",    "Tetcoin-Qt (OSS GUI client for Tetcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "czarcoin-qt"
+            VALUE "InternalName",       "tetcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "czarcoin-qt.exe"
-            VALUE "ProductName",        "Czarcoin-Qt"
+            VALUE "OriginalFilename",   "tetcoin-qt.exe"
+            VALUE "ProductName",        "Tetcoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

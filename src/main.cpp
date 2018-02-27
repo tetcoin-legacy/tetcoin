@@ -19,7 +19,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Czarcoin cannot be compiled without assertions."
+# error "Tetcoin cannot be compiled without assertions."
 #endif
 
 //
@@ -35,8 +35,8 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x7da63dfb7ef42f57bb03eefed301d380377b5097191f915b89c4bd37a30f8379");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Czarcoin: starting difficulty is 1 / 2^12
+uint256 hashGenesisBlock("0xa9738e8ed9f35adfe5ea0755d656f4723127f03fa290e9ac0c53517a4e6721ad");
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Tetcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Czarcoin Signed Message:\n";
+const string strMessageMagic = "Tetcoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -362,7 +362,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // Czarcoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // Tetcoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -623,7 +623,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // Czarcoin
+    // Tetcoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1087,13 +1087,13 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 48 * COIN;
-    nSubsidy >>= (nHeight/131400); // approxiamtely once yearly 
+    int64 nSubsidy = 512 * COIN;
+    nSubsidy >>= (nHeight/105120); // approxiamtely once yearly 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 1 * 60 * 60; // Czarcoin: 1 hour
-static const int64 nTargetSpacing = 180; // Czarcoin: 180 Seconds
+static const int64 nTargetTimespan = 1 * 1 * 60 * 60; // Tetcoin: 1 hour
+static const int64 nTargetSpacing = 5 * 60; // Tetcoin: 300 Seconds
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1152,7 +1152,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
         return pindexLast->nBits;
     }
 
-    // Czarcoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Tetcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -2099,7 +2099,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // Czarcoin: Special short-term limits to avoid 10,000 BDB lock limit:
+    // Tetcoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2739,11 +2739,12 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x63;
-        pchMessageStart[1] = 0x7a;
+        // Testnet set to "fire"
+        pchMessageStart[0] = 0x66;
+        pchMessageStart[1] = 0x69;
         pchMessageStart[2] = 0x72;
-        pchMessageStart[3] = 0x74;
-        hashGenesisBlock = uint256("0x4480e554e3590c558f34d047e7ee71c6c80c628ba86e18f898759b962e94b8fb");
+        pchMessageStart[3] = 0x65;
+        hashGenesisBlock = uint256("0x88ae3370de679cadba6ad258ffc4408dbb1304e037229db023f4d7b6c43a950f");
     }
 
     //
@@ -2768,31 +2769,31 @@ bool InitBlockIndex() {
 
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
-        // Czarcoin Merkleroot:
-        // 61fcbca2949c1b15a29cbca8a3537fbc71c82f0d412a8fc2bbee2bc32f0d2077
-    	//
-    	// Czarcoin Testnet Genesis
-    	// block.nTime = 1519592266
-    	// block.nNonce = 1519742653
-    	// block.GetHash = 4480e554e3590c558f34d047e7ee71c6c80c628ba86e18f898759b962e94b8fb
-    	// CBlock(hash=4480e554e3590c558f34, PoW=00000edfe421d8f8bdb4, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=61fcbca294, nTime=1519592266, nBits=1e0ffff0, nNonce=1519742653, vtx=1)
-    	//  CTransaction(hash=61fcbca294, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-    	//    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d01043e2e2e2e696e206c69676874206f6620616c6c2074686174206861732068617070656e65642c206f6e6c79206f6e6520666163746f722072656d61696e733a)
-    	//    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
-    	//  vMerkleTree: 61fcbca294
-    	//
-    	// Czarcoin Mainnet Genesis
-    	// block.nTime = 1519592266
-    	// block.nNonce = 2090109717
-    	// block.GetHash = 7da63dfb7ef42f57bb03eefed301d380377b5097191f915b89c4bd37a30f8379
-    	// CBlock(hash=7da63dfb7ef42f57bb03, PoW=0000036b1374828c90cb, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=61fcbca294, nTime=1519592266, nBits=1e0ffff0, nNonce=2090109717, vtx=1)
-    	//  CTransaction(hash=61fcbca294, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-    	//    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d01043e2e2e2e696e206c69676874206f6620616c6c2074686174206861732068617070656e65642c206f6e6c79206f6e6520666163746f722072656d61696e733a)
-    	//    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
-    	//  vMerkleTree: 61fcbca294
+        // Tetcoin Merkleroot:
+        // e07542d6ba1990173344b293641084bfb310fb1cbe2f2aa64376777b4b17580a
+        //
+        // Testnet Genesis
+        // block.nTime = 1519608973
+        // block.nNonce = 1519986117
+        // block.GetHash = 88ae3370de679cadba6ad258ffc4408dbb1304e037229db023f4d7b6c43a950f
+        // CBlock(hash=88ae3370de679cadba6a, PoW=00000370f8c4d5ac29fc, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=e07542d6ba, nTime=1519608973, nBits=1e0ffff0, nNonce=1519986117, vtx=1)
+        //  CTransaction(hash=e07542d6ba, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d01043f54686520576f726c6473206772656174657374206175746f2073616c65736d616e206973206669676874696e6720666f7220706f736974696f6e2e2e2e2e2e)
+        //    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+        //  vMerkleTree: e07542d6ba
+        //
+        // Mainnet Genesis
+        // block.nTime = 1519608973
+        // block.nNonce = 2092474348
+        // block.GetHash = a9738e8ed9f35adfe5ea0755d656f4723127f03fa290e9ac0c53517a4e6721ad
+        // CBlock(hash=a9738e8ed9f35adfe5ea, PoW=0000030fbe1c0fe316f7, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=e07542d6ba, nTime=1519608973, nBits=1e0ffff0, nNonce=2092474348, vtx=1)
+        //  CTransaction(hash=e07542d6ba, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d01043f54686520576f726c6473206772656174657374206175746f2073616c65736d616e206973206669676874696e6720666f7220706f736974696f6e2e2e2e2e2e)
+        //    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+        //  vMerkleTree: e07542d6ba
 
         // Genesis block
-        const char* pszTimestamp = "...in light of all that has happened, only one factor remains:";
+        const char* pszTimestamp = "The Worlds greatest auto salesman is fighting for position.....";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2804,14 +2805,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1519592266;
+        block.nTime    = 1519608973;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2090109717;
+        block.nNonce   = 2092474348;
 
         if (fTestNet)
         {
-            block.nTime    = 1519592266;
-            block.nNonce   = 1519742653;
+            block.nTime    = 1519608973;
+            block.nNonce   = 1519986117;
         }
 
         //// debug print
@@ -2819,7 +2820,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x61fcbca2949c1b15a29cbca8a3537fbc71c82f0d412a8fc2bbee2bc32f0d2077"));
+        assert(block.hashMerkleRoot == uint256("0xe07542d6ba1990173344b293641084bfb310fb1cbe2f2aa64376777b4b17580a"));
         block.print();
         assert(hash == hashGenesisBlock);
 
@@ -3092,7 +3093,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x43, 0x7a, 0x61, 0x72 }; // Czarcoin: czar
+unsigned char pchMessageStart[4] = { 0x74, 0x72, 0x65, 0x65 }; // Tetcoin: set to "tree"
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4142,7 +4143,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// CzarcoinMiner
+// TetcoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4555,7 +4556,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("CzarcoinMiner:\n");
+    printf("TetcoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4564,7 +4565,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("CzarcoinMiner : generated block is stale");
+            return error("TetcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4578,17 +4579,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("CzarcoinMiner : ProcessBlock, block not accepted");
+            return error("TetcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static CzarcoinMiner(CWallet *pwallet)
+void static TetcoinMiner(CWallet *pwallet)
 {
-    printf("CzarcoinMiner started\n");
+    printf("TetcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("czarcoin-miner");
+    RenameThread("tetcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4610,7 +4611,7 @@ void static CzarcoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running CzarcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running TetcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4709,7 +4710,7 @@ void static CzarcoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("CzarcoinMiner terminated\n");
+        printf("TetcoinMiner terminated\n");
         throw;
     }
 }
@@ -4734,7 +4735,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&CzarcoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&TetcoinMiner, pwallet));
 }
 
 // Amount compression:

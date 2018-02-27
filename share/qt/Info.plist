@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>czarcoin.icns</string>
+	<string>tetcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Czarcoin-Qt</string>
+	<string>Tetcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.czarcoin.Czarcoin-Qt</string>
+	<string>org.tetcoin.Tetcoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.czarcoin.CzarcoinPayment</string>
+            <string>org.tetcoin.TetcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>czarcoin</string>
+              <string>tetcoin</string>
             </array>
           </dict>
         </array>

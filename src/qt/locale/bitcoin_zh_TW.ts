@@ -4,12 +4,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Czarcoin</source>
+        <source>About Tetcoin</source>
         <translation>關於莱特幣</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Czarcoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Tetcoin&lt;/b&gt; version</source>
         <translation>&lt;b&gt;莱特幣&lt;/b&gt;版本</translation>
     </message>
     <message>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Czarcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Tetcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>這些是你用來收款的莱特幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Czarcoin address</source>
+        <source>Sign a message to prove you own a Tetcoin address</source>
         <translation>簽署訊息是用來證明莱特幣位址是你的</translation>
     </message>
     <message>
@@ -107,7 +107,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Czarcoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Tetcoin address</source>
         <translation>驗證訊息是用來確認訊息是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Czarcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Tetcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>這是你用來付款的莱特幣位址. 在付錢之前, 務必要檢查金額和收款位址是否正確.</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Czarcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your czarcoins from being stolen by malware infecting your computer.</source>
+        <source>Tetcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tetcoins from being stolen by malware infecting your computer.</source>
         <translation>莱特幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的莱特幣.</translation>
     </message>
     <message>
@@ -374,7 +374,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Czarcoin</source>
+        <source>Show information about Tetcoin</source>
         <translation>顯示莱特幣相關資訊</translation>
     </message>
     <message>
@@ -419,12 +419,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Czarcoin address</source>
+        <source>Send coins to a Tetcoin address</source>
         <translation>付錢到莱特幣位址</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Czarcoin</source>
+        <source>Modify configuration options for Tetcoin</source>
         <translation>修改莱特幣的設定選項</translation>
     </message>
     <message>
@@ -455,7 +455,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Czarcoin</source>
+        <source>Tetcoin</source>
         <translation>莱特幣</translation>
     </message>
     <message>
@@ -480,7 +480,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Czarcoin</source>
+        <source>&amp;About Tetcoin</source>
         <translation>關於莱特幣</translation>
     </message>
     <message>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Czarcoin addresses to prove you own them</source>
+        <source>Sign messages with your Tetcoin addresses to prove you own them</source>
         <translation>用莱特幣位址簽署訊息來證明那是你的</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Czarcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Tetcoin addresses</source>
         <translation>驗證訊息來確認是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Czarcoin client</source>
+        <source>Tetcoin client</source>
         <translation>莱特幣客戶端軟體</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Czarcoin network</source>
+        <source>%n active connection(s) to Tetcoin network</source>
         <translation><numerusform>與莱特幣網路有 %n 個連線在使用中</numerusform></translation>
     </message>
     <message>
@@ -655,7 +655,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Czarcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Tetcoin address or malformed URI parameters.</source>
         <translation>無法解析 URI! 也許莱特幣位址無效或 URI 參數有誤.</translation>
     </message>
     <message>
@@ -670,7 +670,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Czarcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Tetcoin can no longer continue safely and will quit.</source>
         <translation>發生了致命的錯誤. 莱特幣程式無法再繼續安全執行, 只好結束.</translation>
     </message>
 </context>
@@ -736,7 +736,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Czarcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Tetcoin address.</source>
         <translation>輸入的位址 &quot;%1&quot; 並不是有效的莱特幣位址.</translation>
     </message>
     <message>
@@ -755,7 +755,7 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Czarcoin-Qt</source>
+        <source>Tetcoin-Qt</source>
         <translation>莱特幣-Qt</translation>
     </message>
     <message>
@@ -819,12 +819,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Czarcoin after logging in to the system.</source>
+        <source>Automatically start Tetcoin after logging in to the system.</source>
         <translation>在登入系統後自動啓動莱特幣.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Czarcoin on system login</source>
+        <source>&amp;Start Tetcoin on system login</source>
         <translation>系統登入時啟動莱特幣</translation>
     </message>
     <message>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Czarcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開啟 Czarcoin 的客戶端通訊埠. 只有在你的路由器支援 UPnP 且開啟時才有作用.</translation>
+        <source>Automatically open the Tetcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動在路由器上開啟 Tetcoin 的客戶端通訊埠. 只有在你的路由器支援 UPnP 且開啟時才有作用.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,7 +854,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Czarcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Tetcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>透過 SOCKS 代理伺服器連線至莱特幣網路 (比如說要透過 Tor 連線).</translation>
     </message>
     <message>
@@ -929,7 +929,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Czarcoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Tetcoin.</source>
         <translation>可以在這裡設定使用者介面的語言. 這個設定在莱特幣程式重啓後才會生效.</translation>
     </message>
     <message>
@@ -944,7 +944,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Czarcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Tetcoin addresses in the transaction list or not.</source>
         <translation>是否要在交易列表中顯示莱特幣位址.</translation>
     </message>
     <message>
@@ -996,7 +996,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Czarcoin.</source>
+        <source>This setting will take effect after restarting Tetcoin.</source>
         <translation>這個設定會在莱特幣程式重啓後生效.</translation>
     </message>
     <message>
@@ -1015,7 +1015,7 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Czarcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tetcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>顯示的資訊可能是過期的. 與莱特幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
     </message>
     <message>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start czarcoin: click-to-pay handler</source>
-        <translation>無法啟動 czarcoin 隨按隨付處理器</translation>
+        <source>Cannot start tetcoin: click-to-pay handler</source>
+        <translation>無法啟動 tetcoin 隨按隨付處理器</translation>
     </message>
 </context>
 <context>
@@ -1219,7 +1219,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Czarcoin-Qt help message to get a list with possible Czarcoin command-line options.</source>
+        <source>Show the Tetcoin-Qt help message to get a list with possible Tetcoin command-line options.</source>
         <translation>顯示莱特幣-Qt的求助訊息, 來取得可用的命令列選項列表.</translation>
     </message>
     <message>
@@ -1239,12 +1239,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Czarcoin - Debug window</source>
+        <source>Tetcoin - Debug window</source>
         <translation>莱特幣 - 除錯視窗</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Czarcoin Core</source>
+        <source>Tetcoin Core</source>
         <translation>莱特幣核心</translation>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Czarcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Tetcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>從目前的資料目錄下開啓莱特幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
     </message>
     <message>
@@ -1264,7 +1264,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Czarcoin RPC console.</source>
+        <source>Welcome to the Tetcoin RPC console.</source>
         <translation>歡迎使用莱特幣 RPC 主控台.</translation>
     </message>
     <message>
@@ -1448,7 +1448,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Czarcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Tetcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1513,7 +1513,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Czarcoin address</source>
+        <source>Sign the message to prove you own this Tetcoin address</source>
         <translation>簽署訊息是用來證明這個莱特幣位址是你的</translation>
     </message>
     <message>
@@ -1549,7 +1549,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Czarcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Tetcoin address</source>
         <translation>驗證訊息是用來確認訊息是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
@@ -1565,7 +1565,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Czarcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Tetcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1575,7 +1575,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Czarcoin signature</source>
+        <source>Enter Tetcoin signature</source>
         <translation>輸入莱特幣簽章</translation>
     </message>
     <message>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Czarcoin version</source>
+        <source>Tetcoin version</source>
         <translation>莱特幣版本</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or czarcoind</source>
-        <translation>送指令給 -server 或 czarcoind
+        <source>Send command to -server or tetcoind</source>
+        <translation>送指令給 -server 或 tetcoind
 </translation>
     </message>
     <message>
@@ -2221,14 +2221,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: czarcoin.conf)</source>
-        <translation>指定設定檔 (預設: czarcoin.conf)
+        <source>Specify configuration file (default: tetcoin.conf)</source>
+        <translation>指定設定檔 (預設: tetcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: czarcoind.pid)</source>
-        <translation>指定行程識別碼檔案 (預設: czarcoind.pid)
+        <source>Specify pid file (default: tetcoind.pid)</source>
+        <translation>指定行程識別碼檔案 (預設: tetcoind.pid)
 </translation>
     </message>
     <message>
@@ -2244,8 +2244,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8814 or testnet: 18814)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 8814, 或若為測試網路: 18814)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8877 or testnet: 18877)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 8877, 或若為測試網路: 18877)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2279,8 +2279,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8816 or testnet: 18816)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8816, 或若為測試網路: 18816)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8899 or testnet: 18899)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8899, 或若為測試網路: 18899)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2309,25 +2309,25 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=czarcoinrpc
+rpcuser=tetcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tetcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
 %s
 建議你使用以下隨機產生的密碼:
-rpcuser=czarcoinrpc
+rpcuser=tetcoinrpc
 rpcpassword=%s
 (你不用記住這個密碼)
 使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同!
 如果設定檔還不存在, 請在新增時, 設定檔案權限為&quot;只有主人才能讀取&quot;.
 也建議你設定警示通知, 發生問題時你才會被通知到;
 比如說設定為:
-alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
+alertnotify=echo %%s | mail -s &quot;Tetcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2342,7 +2342,7 @@ alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Czarcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Tetcoin is probably already running.</source>
         <translation>無法鎖定資料目錄 %s. 也許莱特幣已經在執行了.</translation>
     </message>
     <message>
@@ -2387,7 +2387,7 @@ alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Czarcoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tetcoin will not work properly.</source>
         <translation>警告: 請檢查電腦時間與日期是否正確! 莱特幣無法在時鐘不準的情況下正常運作.</translation>
     </message>
     <message>
@@ -2637,8 +2637,8 @@ alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Czarcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL 選項: (SSL 設定程序請見 Czarcoin Wiki)</translation>
+        <source>SSL options: (see the Tetcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL 選項: (SSL 設定程序請見 Tetcoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2834,12 +2834,12 @@ alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Czarcoin</source>
-        <translation>載入檔案 wallet.dat 失敗: 此錢包需要新版的 Czarcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tetcoin</source>
+        <translation>載入檔案 wallet.dat 失敗: 此錢包需要新版的 Tetcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Czarcoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Tetcoin to complete</source>
         <translation>錢包需要重寫: 請重啟莱特幣來完成</translation>
     </message>
     <message>
@@ -2899,7 +2899,7 @@ alertnotify=echo %%s | mail -s &quot;Czarcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Czarcoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Tetcoin is probably already running.</source>
         <translation>無法和這台電腦上的 %s 繫結. 也許莱特幣已經在執行了.</translation>
     </message>
     <message>

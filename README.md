@@ -1,12 +1,12 @@
-Czarcoin integration/staging tree
+Tetcoin integration/staging tree
 ================================
 
-https://czarcoin.com
+https://tetcoin.com
 
-What is Czarcoin?
+What is Tetcoin?
 -----------------
 
-Czarcoin is an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
+Tetcoin is an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
  - 5 minute block targets
  - subsidy halves in 105k blocks (~1 years)
  - ~128 million total coins
@@ -14,12 +14,12 @@ Czarcoin is an alternative cryptocurrency using scrypt as a proof-of-work algori
  - 1 hour to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Czarcoin client sofware, see https://czarcoin.com.
+the Tetcoin client sofware, see https://tetcoin.com.
 
 License
 -------
 
-Czarcoin is released under the terms of the MIT license. See `COPYING` for more
+Tetcoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -28,7 +28,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Czarcoin
+If it is a simple/trivial/non-controversial change, then one of the Tetcoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -40,8 +40,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/czarcoin/czarcoin/tags) are created
-regularly to indicate new official, stable release versions of Czarcoin.
+completely stable. [Tags](https://github.com/tetcoin/tetcoin/tags) are created
+regularly to indicate new official, stable release versions of Tetcoin.
 
 Testing
 -------
@@ -62,7 +62,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake CZARCOIN_QT_TEST=1 -o Makefile.test czarcoin-qt.pro
+    qmake CZARCOIN_QT_TEST=1 -o Makefile.test tetcoin-qt.pro
     make -f Makefile.test
-    ./czarcoin-qt_test
+    ./tetcoin-qt_test
 

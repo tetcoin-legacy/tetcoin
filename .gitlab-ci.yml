@@ -11,8 +11,8 @@ build:
   before_script: 
     - apt update && apt -y install make autoconf git
     - apt-get install -y autogen automake build-essential software-properties-common libboost-all-dev libcurl4-openssl-dev libdb-dev libdb++-dev libgmp3-dev libminiupnpc-dev libmpfr-dev libssl-dev libcurl4-openssl-dev libjansson-dev pax-utils
-    - git clone https://github.com/czarcoin/czarcoin.git
-    - cd czarcoin/src
+    - git clone https://github.com/tetcoin/tetcoin.git
+    - cd tetcoin/src
   script: 
     - make -f makefile.unix
   artifacts:
