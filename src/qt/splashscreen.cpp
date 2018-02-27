@@ -13,7 +13,7 @@
 SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     QSplashScreen(pixmap, f)
 {
-    // set reference point, paddings
+    /*// set reference point, paddings
     int paddingLeftCol2         = 230;
     int paddingTopCol2          = 363;
     int line1 = 0;
@@ -48,12 +48,21 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line4,versionText);
 
     // draw copyright stuff
-    /*pixPaint.setFont(QFont(font, 9*fontFactor));
+    pixPaint.setFont(QFont(font, 9*fontFactor));
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line1,copyrightText1);
     pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line2,copyrightText2);
-    pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line3,copyrightText3);*/
+    pixPaint.drawText(paddingLeftCol2,paddingTopCol2+line3,copyrightText3);
 
     pixPaint.end();
 
+    this->setPixmap(newPixmap);*/
+    // load the bitmap for writing some text over it
+    QPixmap newPixmap;
+    if(GetBoolArg("-testnet")) {
+        newPixmap     = QPixmap(":/images/splash_testnet");
+    }
+    else {
+        newPixmap     = QPixmap(":/images/splash");
+    }
     this->setPixmap(newPixmap);
 }
