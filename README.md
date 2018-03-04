@@ -6,7 +6,7 @@ https://tetcoin.com
 What is Tetcoin?
 -----------------
 
-Tetcoin is an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
+Tetcoin is the currency for change, an alternative cryptocurrency using scrypt as a proof-of-work algorithm.
  - 5 minute block targets
  - subsidy halves in 105k blocks (~1 years)
  - ~128 million total coins
